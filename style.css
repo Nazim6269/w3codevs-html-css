@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* color:#ECB365 */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+/* header section css start here */
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #fff;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-section .container {
+  background-color: #041c32;
+  overflow: auto;
+  line-height: 90px;
+  padding: 10px 20px 0px 20px;
+}
+
+.site-name {
+  float: left;
+  width: 50%;
+}
+
+.site-name img {
+  width: 15%;
+  height: auto;
+  border-radius: 0px 25px;
+  border: 1px solid;
+  transition: 0.5s all ease;
+  cursor: pointer;
+  float: left;
+  margin-top: 7px;
+}
+
+.site-name img:hover {
+  border-radius: 25px 0px;
+  border: 1px solid;
+}
+
+.site-name h1 {
+  display: inline-block;
+  text-shadow: 2px 2px 3px #585b7e, -2px -2px 3px #e8baed;
+  margin-left: 120px;
+  font-size: 30px;
+}
+
+.search {
+  float: right;
+}
+
+.search input {
+  display: inline-block;
+  width: 330px;
+  padding: 10px 35px;
+  border: none;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.header-section button {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.7s all ease;
+}
+
+.header-section button:hover {
+  background-color: #064663;
+  color: #fff;
+}
+
+/* menu-section css start here */
+
+.menu-section .container {
+  background-color: #04293a;
+}
+
+.menu-bar li {
+  list-style-type: none;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0px 45px;
+}
+
+.menu-bar li:hover {
+  background-image: linear-gradient(to bottom right, black, #393b44, #382933);
+}
+
+/* hero-section css start here */
+
+.hero-section .container {
+  background-image: url("img/11.jpg");
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  padding: 160px 0px;
+}
+
+.hero-section h1 {
+  text-align: center;
+  font-size: 36px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 12%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.hero-section button {
+  border: none;
+  padding: 14px 24px;
+  border-radius: 32px;
+  background-color: #041c32;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.7s all ease;
+}
+
+.hero-section button:hover {
+  background-color: #064663;
+}
+
+/* service-sction css start here */
+
+.service-section .container {
+  background-color: #064663;
+  color: #fff;
+  padding: 30px 0px;
+}
+
+.service-text {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.service-section h1 {
+  font-size: 50px;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+}
+
+.service-section p {
+  font-size: 15px;
+  word-spacing: 2px;
+}
+
+.service-content {
+  overflow: hidden;
+  padding: 0px 50px 50px 50px;
+}
+
+.service-box {
+  width: 33%;
+  float: left;
+  margin-top: 45px;
+}
+
+.service-box i {
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  transition: 0.7s all ease;
+}
+
+.service-box i:hover{
+  background-color: #041c32;
+  color: #fff;
+}
+
+.service-box h1 {
+  font-size: 25px;
+  margin: 10px 0px;
+}
+
+/* About section css here */
+.about-section .container {
+  background-color: #ecb365;
+  color: #000;
+  text-align: center;
+  padding: 35px 100px;
+}
+
+.about-section h1 {
+  font-size: 50px;
+}
+
+.about-section p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 10px 0px;
+}
+
+/* blog section css start here */
+
+.blog-section .container {
+  background-color: #064663;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.blog-section h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.blog-box {
+  width: 33%;
+  float: left;
+  padding: 15px 25px;
+}
+
+.blog-box img {
+  width: 100%;
+}
+
+.blog-box h2 {
+  margin: 15px 0px;
+}
+
+/* footer-section css start here */
+
+.footer-section .container {
+  background-color: #041c32;
+  padding: 30px 0px;
+}
+
+.footer-heading {
+  font-size: 15px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.footer-heading h1 {
+  font-family: fantasy;
+  font-size: 45px;
+  letter-spacing: 3px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: url("img/beach-g2fe5637c4_1920.jpg");
+  color: transparent;
+}
+
+.footer-heading p {
+  padding: 20px;
+}
+
+.footer-search {
+  width: 50%;
+  margin: 25px auto;
+  padding-left: 155px;
+}
+
+.footer-section input {
+  padding: 10px 35px;
+  border: none;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.footer-section button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 10px;
+  transition: 0.5s all ease;
+}
+
+.footer-section button:hover {
+  background-color: #ecb365;
+  color: #fff;
+}
+
+.footer-icon {
+  width: 60%;
+  padding: 20px 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-icon i {
+  margin-right: 20px;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s all ease;
+  background-color: #fff;
+  color: #000;
+  padding: 16px 18px;
+}
+
+.footer-icon i:hover{
+  background-color: #ecb365;
+  color: #fff;
+}
+
+.footer-link {
+  width: 75%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.footer-link li {
+  list-style-type: none;
+  margin: 10px 0px;
+  cursor: pointer;
+  transition: 1s all ease;
+}
+
+.footer-link li:hover {
+  color: #ecb365;
+}
+
+.footer-content:not(:last-child) {
+  float: left;
+  margin-left: 80px;
+  padding: 20px 0px;
+}
+
+#copyright {
+  clear: both;
+  padding: 15px 0px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#copyright p,
+#copyright img {
+  display: inline-block;
+}
+
+.footer-content p {
+  margin-left: 265px;
+  padding: 10px 0px;
+}
+
+.footer-link img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: -12px;
+}
